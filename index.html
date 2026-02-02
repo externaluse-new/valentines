@@ -111,8 +111,8 @@ function fadeIn(){
   let v=0;
   const i=setInterval(()=>{
     v+=0.02;
-    bgm.volume=Math.min(v,0.5);
-    if(v>=0.5)clearInterval(i);
+    bgm.volume=Math.min(v,0.2);
+    if(v>=0.2)clearInterval(i);
   },100);
 }
 function fadeOut(){
